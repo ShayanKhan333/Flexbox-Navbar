@@ -1,0 +1,1249 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-navbar{
+display: flex;
+gap: 250px;
+margin-left: 70px;
+}
+.nav-imgcontanier {
+    display: flex;
+    margin-top: 10px;
+    width:65px;
+     height:65px;
+}
+.nav-imgcontanier h2{
+font-size: 28px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+    margin-left: 10px;
+
+} 
+.nav-imgcontanier p{
+    font-size: 8.4px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 23px;
+    margin-top: -5px;
+
+} 
+.navbar-nav{
+    gap: 10px;
+} 
+ i{
+   color: rgb(32, 32, 32);
+    font-size: 13px;
+    margin-top: 8.5px;
+    margin-left: 5px;
+}
+
+.navbar-light .navbar-nav .nav-link    {
+   color: rgb(32, 32, 32);
+}
+.navbar-light .navbar-toggler {
+    border-color: rgba(255, 0, 0, 0.0);
+}
+.mainheading{
+    margin-top: 100px;
+    margin-left: 260px;
+    font-size: 48px;
+    font-weight: normal;
+}
+
+.readourreview{
+    margin-top: -11px;
+    margin-left: 10px;
+    width: 112px;
+height: 32px;
+}
+.ultraedit{
+font-size:50px ;
+font-weight: bold;
+
+}
+.paratop {
+    font-size: 24px;
+    margin-left: 4%; /* Adjust this value based on your design */
+    margin-top: 30px;
+    text-align: center; /* Center the text within the container */
+    display: flex;
+    flex-direction: column; /* Stack the child elements vertically */
+    align-items: center; /* Center the child elements horizontally */
+    margin-right: 3%;
+}
+.button-mac-linux{
+    width: 320px;
+height: 50px;
+    background-color:#00b6d1 ;
+    border: #00b6d1 1px solid;
+    color: white;
+    font-weight: bold;
+}
+.button-mac-linux:hover{
+    background-color:#1eaac0 ;
+    border: #1eaac0 1px solid;  
+}
+.para-img-maincontainer{
+    margin-top: 90px;
+    margin-left: 230px;
+    margin-right: 40px;
+}
+.img-para{
+    margin-top: 14px;
+    font-size: 23px;
+ 
+}
+.uc-para-img{
+    width:63px;
+     height:63px;
+}    .img-para span{
+    margin-top: 20px;
+    font-size: 15px;
+
+}
+
+
+
+
+/* Section Media Query */
+
+
+@media only screen and (max-width: 1286px) {
+    .main-navbar{
+        display: flex;
+        gap: 240px;
+       
+        }
+        .mainheading{
+            margin-top: 100px;
+            margin-left: 250px;
+            font-size: 48px;
+            font-weight: normal;
+        }
+        
+  }
+  @media only screen and (max-width: 1252px) {
+    .main-navbar{
+        display: flex;
+        gap: 220px;
+       
+        }
+        .mainheading{
+            margin-top: 100px;
+            margin-left: 230px;
+            font-size: 48px;
+            font-weight: normal;
+        }
+  }
+  @media only screen and (max-width: 1218px) {
+    .main-navbar{
+        display: flex;
+        gap: 200px;
+       
+        }
+        .mainheading{
+            margin-top: 100px;
+            margin-left: 210px;
+            font-size: 48px;
+            font-weight: normal;
+        }
+
+  }
+  @media only screen and (max-width: 1192px) {
+    .main-navbar{
+        display: flex;
+        gap: 180px;
+       
+        }
+        .mainheading{
+            margin-top: 100px;
+            margin-left: 180px;
+            font-size: 48px;
+            font-weight: normal;
+        }
+        .para-img-maincontainer{
+            margin-top: 90px;
+            margin-left: 210px;
+        }
+  }
+
+  @media only screen and (max-width: 1144px) {
+    .main-navbar{
+        display: flex;
+        gap: 160px;
+       
+        }
+        .mainheading{
+            margin-top: 100px;
+            margin-left: 130px;
+            font-size: 48px;
+            font-weight: normal;
+        }
+        .para-img-maincontainer{
+            margin-top: 90px;
+            margin-left: 160px;
+        }
+  }
+  @media only screen and (max-width: 1104px) {
+    .main-navbar{
+        display: flex;
+        gap: 140px;
+       
+        }
+        .mainheading{
+            margin-top: 100px;
+            margin-left: 110px;
+            font-size: 48px;
+            font-weight: normal;
+        }
+        .para-img-maincontainer{
+            margin-top: 90px;
+            margin-left: 170px;
+        }
+  }
+  @media only screen and (max-width: 1074px) {
+    .main-navbar{
+        display: flex;
+        gap: 120px;
+        margin-left: 50px;
+        }
+        .mainheading{
+            margin-top: 100px;
+            margin-left: 78px;
+            font-size: 48px;
+            font-weight: normal;
+        }
+        .para-img-maincontainer{
+            margin-top: 90px;
+            margin-left: 100px;
+        }
+  }
+  @media only screen and (max-width: 990px) {
+    .main-navbar{
+        display: flex;
+        gap: 1px;
+        margin-left: 40px;
+        margin-right: 20px;
+        }
+        .mainheading{
+            margin-top: 100px;
+            margin-left: 58px;
+            font-size: 48px;
+            font-weight: normal;
+        }
+  }
+  @media only screen and (max-width: 968px) {
+    .main-navbar{
+        display: flex;
+        gap: 1px;
+        margin-left: 40px;
+        margin-right: 20px;
+        }
+        .mainheading{
+            margin-top: 100px;
+            margin-left: 58px;
+            font-size: 48px;
+            font-weight: normal;
+        }
+
+  }
+  @media only screen and (max-width: 936px) {
+    .main-navbar{
+        display: flex;
+        gap: 1px;
+        margin-left: 40px;
+        margin-right: 20px;
+        }
+        .mainheading{
+            margin-top: 80px;
+            margin-left: 128px;
+            font-size: 44px;
+            font-weight: normal;
+        }
+        .readourreview{
+            margin-top: 100px;
+            margin-left: -400px;
+            width: 112px;
+        height: 32px;
+        }
+  }
+  @media only screen and (max-width: 810px) {
+    .main-navbar{
+        display: flex;
+        gap: 1px;
+        margin-left: 40px;
+        margin-right: 20px;
+        }
+        .mainheading{
+            margin-top: 80px;
+            margin-left: 88px;
+            font-size: 42px;
+            font-weight: normal;
+            margin-right: 45px;
+        }
+        .readourreview{
+            margin-top: 100px;
+            margin-left: -400px;
+            width: 112px;
+        height: 32px;
+        }
+        .ultraedit{
+            font-size:46px ;
+            font-weight: bold;
+            
+            }
+  }
+
+  @media only screen and (max-width: 782px) {
+    .main-navbar{
+        display: flex;
+        gap: 1px;
+        margin-left: 40px;
+        margin-right: 20px;
+        }
+        .nav-imgcontanier {
+            display: flex;
+            margin-top: 10px;
+            width:55px;
+             height:55px;
+        }
+        .nav-imgcontanier h2{
+        font-size: 24px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-top: 8px;
+            margin-left: 10px;
+        
+        } 
+        .nav-imgcontanier p{
+            font-size: 8.4px;
+            font-family:Arial, Helvetica, sans-serif;
+            margin-left: 11px;
+            margin-top: -5px;
+        
+        } 
+        .navbar-light .navbar-toggler {
+            margin-top: 10px;
+            border-color: rgba(255, 0, 0, 0.0);
+        }
+        .mainheading{
+            margin-top: 80px;
+            margin-left: 88px;
+            font-size: 42px;
+            font-weight: normal;
+        }
+        .readourreview{
+            margin-top: 11px;
+            margin-left: 270px;
+            width: 112px;
+        height: 32px;
+        }
+        .ultraedit{
+            font-size:46px ;
+            font-weight: bold;
+            
+            }
+  }
+  @media only screen and (max-width: 770px) {
+    .main-navbar{
+        display: flex;
+        gap: 1px;
+        margin-left: 40px;
+        margin-right: 20px;
+        }
+        .nav-imgcontanier {
+            display: flex;
+            margin-top: 10px;
+            width:55px;
+             height:55px;
+        }
+        .nav-imgcontanier h2{
+        font-size: 24px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-top: 8px;
+            margin-left: 10px;
+        
+        } 
+        .nav-imgcontanier p{
+            font-size: 8.4px;
+            font-family:Arial, Helvetica, sans-serif;
+            margin-left: 11px;
+            margin-top: -5px;
+        
+        } 
+        .navbar-light .navbar-toggler {
+            margin-top: 10px;
+            border-color: rgba(255, 0, 0, 0.0);
+        }
+        .mainheading{
+            margin-top: 80px;
+            margin-left: 150px;
+            font-size: 42px;
+            font-weight: normal;
+        }
+        .readourreview{
+            margin-top: 1px;
+            margin-left: 10px;
+            width: 112px;
+        height: 32px;
+        }
+        .ultraedit{
+            font-size:46px ;
+            font-weight: bold;
+            
+            }
+            .para-img-maincontainer{
+                margin-top: 90px;
+                margin-left: 230px;
+                margin-right: 40px;
+            }
+            .img-para{
+                margin-top: 14px;
+                font-size: 23px;
+             
+            }
+  }
+  @media only screen and (max-width: 717px) {
+    .main-navbar{
+        display: flex;
+        gap: 1px;
+        margin-left: 40px;
+        margin-right: 20px;
+        }
+        .nav-imgcontanier {
+            display: flex;
+            margin-top: 10px;
+            width:55px;
+             height:55px;
+        }
+        .nav-imgcontanier h2{
+        font-size: 24px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-top: 8px;
+            margin-left: 10px;
+        
+        } 
+        .nav-imgcontanier p{
+            font-size: 8.4px;
+            font-family:Arial, Helvetica, sans-serif;
+            margin-left: 11px;
+            margin-top: -5px;
+        
+        } 
+        .navbar-light .navbar-toggler {
+            margin-top: 10px;
+            border-color: rgba(255, 0, 0, 0.0);
+        }
+        .mainheading{
+            margin-top: 80px;
+            margin-left: 150px;
+            font-size: 42px;
+            font-weight: normal;
+        }
+        .readourreview{
+            margin-top: 1px;
+            margin-left: 10px;
+            width: 112px;
+        height: 32px;
+        }
+        .ultraedit{
+            font-size:46px ;
+            font-weight: bold;
+            
+            }
+            .para-img-maincontainer{
+                margin-top: 90px;
+                margin-left: 73.5px;
+                margin-right: 40px;
+            }
+  }
+  @media only screen and (max-width: 651px) {
+    .main-navbar{
+        display: flex;
+        gap: 1px;
+        margin-left: 40px;
+        margin-right: 20px;
+        }
+        .nav-imgcontanier {
+            display: flex;
+            margin-top: 10px;
+            width:55px;
+             height:55px;
+        }
+        .nav-imgcontanier h2{
+        font-size: 24px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-top: 8px;
+            margin-left: 10px;
+        
+        } 
+        .nav-imgcontanier p{
+            font-size: 8.4px;
+            font-family:Arial, Helvetica, sans-serif;
+            margin-left: 11px;
+            margin-top: -5px;
+        
+        } 
+        .navbar-light .navbar-toggler {
+            margin-top: 10px;
+            border-color: rgba(255, 0, 0, 0.0);
+        }
+        .mainheading{
+            margin-top: 80px;
+            margin-left: 120px;
+            font-size: 42px;
+            font-weight: normal;
+        }
+        .readourreview{
+            margin-top: 1px;
+            margin-left: 10px;
+            width: 112px;
+        height: 32px;
+        }
+        .ultraedit{
+            font-size:46px ;
+            font-weight: bold;
+            
+            }
+            .para-img-maincontainer{
+                margin-top: 90px;
+                margin-left: 73.5px;
+                margin-right: 40px;
+            }
+            .uc-para-img{
+                margin-top: 20px;
+                width:63px;
+                 height:63px;
+            } 
+  }
+  @media only screen and (max-width: 638px) {
+    .main-navbar{
+        display: flex;
+        gap: 1px;
+        margin-left: 40px;
+        margin-right: 20px;
+        }
+        .nav-imgcontanier {
+            display: flex;
+            margin-top: 10px;
+            width:55px;
+             height:55px;
+        }
+        .nav-imgcontanier h2{
+        font-size: 24px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-top: 8px;
+            margin-left: 10px;
+        
+        } 
+        .nav-imgcontanier p{
+            font-size: 8.4px;
+            font-family:Arial, Helvetica, sans-serif;
+            margin-left: 11px;
+            margin-top: -5px;
+        
+        } 
+        .navbar-light .navbar-toggler {
+            margin-top: 10px;
+            border-color: rgba(255, 0, 0, 0.0);
+        }
+        .mainheading{
+            margin-top: 80px;
+            margin-left: 100px;
+            font-size: 42px;
+            font-weight: normal;
+        }
+        .readourreview{
+            margin-top: 1px;
+            margin-left: 10px;
+            width: 112px;
+        height: 32px;
+        }
+        .ultraedit{
+            font-size:46px ;
+            font-weight: bold;
+            
+            }
+  }
+  @media only screen and (max-width: 575px) {
+    .main-navbar{
+        display: flex;
+        gap: 1px;
+        margin-left: 40px;
+        margin-right: 20px;
+        }
+        .nav-imgcontanier {
+            display: flex;
+            margin-top: 10px;
+            width:55px;
+             height:55px;
+        }
+        .nav-imgcontanier h2{
+        font-size: 24px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-top: 8px;
+            margin-left: 10px;
+        
+        } 
+        .nav-imgcontanier p{
+            font-size: 8.4px;
+            font-family:Arial, Helvetica, sans-serif;
+            margin-left: 11px;
+            margin-top: -5px;
+        
+        } 
+        .navbar-light .navbar-toggler {
+            margin-top: 10px;
+            border-color: rgba(255, 0, 0, 0.0);
+        }
+        .mainheading{
+            margin-top: 80px;
+            margin-left: 45px;
+            font-size: 32px;
+            font-weight: normal;
+            margin-right: -10px;
+        }
+        .readourreview{
+            margin-top: 10px;
+            margin-left: 180px;
+            width: 112px;
+        height: 32px;
+        }
+        .ultraedit{
+            font-size:33px ;
+            font-weight: bold;
+            
+            }
+            .paratop {
+                font-size: 19px;
+                margin-left: 4%; /* Adjust this value based on your design */
+                margin-top: 30px;
+                text-align: center; /* Center the text within the container */
+                display: flex;
+                flex-direction: column; /* Stack the child elements vertically */
+                align-items: center; /* Center the child elements horizontally */
+                margin-right: 3%;
+            }
+        }
+        @media only screen and (max-width: 555px) {
+            .main-navbar{
+                display: flex;
+                gap: 1px;
+                margin-left: 40px;
+                margin-right: 20px;
+                }
+                .nav-imgcontanier {
+                    display: flex;
+                    margin-top: 10px;
+                    width:55px;
+                     height:55px;
+                }
+                .nav-imgcontanier h2{
+                font-size: 24px;
+                    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    margin-top: 8px;
+                    margin-left: 10px;
+                
+                } 
+                .nav-imgcontanier p{
+                    font-size: 8.4px;
+                    font-family:Arial, Helvetica, sans-serif;
+                    margin-left: 11px;
+                    margin-top: -5px;
+                
+                } 
+                .navbar-light .navbar-toggler {
+                    margin-top: 10px;
+                    border-color: rgba(255, 0, 0, 0.0);
+                }
+                .mainheading{
+                    margin-top: 80px;
+                    margin-left: 60px;
+                    font-size: 30px;
+                    font-weight: normal;
+                    margin-right: 20px;
+                }
+                .readourreview{
+                    margin-top: 10px;
+                    margin-left: 180px;
+                    width: 112px;
+                height: 32px;
+                }
+                .ultraedit{
+                    font-size:30px ;
+                    font-weight: bold;
+                    
+                    }
+          }
+          @media only screen and (max-width: 523px) {
+            .main-navbar{
+                display: flex;
+                gap: 1px;
+                margin-left: 40px;
+                margin-right: 20px;
+                }
+                .nav-imgcontanier {
+                    display: flex;
+                    margin-top: 10px;
+                    width:55px;
+                     height:55px;
+                }
+                .nav-imgcontanier h2{
+                font-size: 24px;
+                    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    margin-top: 8px;
+                    margin-left: 10px;
+                
+                } 
+                .nav-imgcontanier p{
+                    font-size: 8.4px;
+                    font-family:Arial, Helvetica, sans-serif;
+                    margin-left: 11px;
+                    margin-top: -5px;
+                
+                } 
+                .navbar-light .navbar-toggler {
+                    margin-top: 10px;
+                    border-color: rgba(255, 0, 0, 0.0);
+                }
+                .mainheading{
+                    margin-top: 80px;
+                    margin-left: 100px;
+                    font-size: 30px;
+                    font-weight: normal;
+                    margin-right: 20px;
+                }
+                .readourreview{
+                    margin-top: -1px;
+                    margin-left: 10px;
+                    width: 112px;
+                height: 32px;
+                }
+                .ultraedit{
+                    font-size:30px ;
+                    font-weight: bold;
+                    
+                    }
+          }
+  @media only screen and (max-width: 495px) {
+    .main-navbar{
+        display: flex;
+        gap: 1px;
+        margin-left: 40px;
+        margin-right: 20px;
+        }
+        .nav-imgcontanier {
+            display: flex;
+            margin-top: 10px;
+            width:55px;
+             height:55px;
+        }
+        .nav-imgcontanier h2{
+        font-size: 24px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-top: 8px;
+            margin-left: 10px;
+        
+        } 
+        .nav-imgcontanier p{
+            font-size: 8.4px;
+            font-family:Arial, Helvetica, sans-serif;
+            margin-left: 11px;
+            margin-top: -5px;
+        
+        } 
+        .navbar-light .navbar-toggler {
+            margin-top: 10px;
+            border-color: rgba(255, 0, 0, 0.0);
+        }
+        .mainheading{
+            margin-top: 80px;
+            margin-left: 100px;
+            font-size: 30px;
+            font-weight: normal;
+            margin-right: 20px;
+        }
+        .readourreview{
+            margin-top: -1px;
+            margin-left: 10px;
+            width: 112px;
+        height: 32px;
+        }
+        .ultraedit{
+            font-size:30px ;
+            font-weight: bold;
+            
+            }
+  }
+    @media only screen and (max-width: 476px) {
+    .main-navbar{
+        display: flex;
+        gap: 1px;
+        margin-left: 30px;
+        margin-right: 20px;
+        }
+        .nav-imgcontanier {
+            display: flex;
+            margin-top: 10px;
+            width:53px;
+             height:53px;
+        }
+        .nav-imgcontanier h2{
+        font-size: 22px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-top: 5px;
+            margin-left: 10px;
+        
+        } 
+        .nav-imgcontanier p{
+            font-size: 8.4px;
+            font-family:Arial, Helvetica, sans-serif;
+            margin-left: 8px;
+            margin-top: -5px;
+        
+        } 
+        .mainheading{
+            margin-top: 80px;
+            margin-left: 70px;
+            font-size: 30px;
+            font-weight: normal;
+            margin-right: 20px;
+        }
+        .readourreview{
+            margin-top: -1px;
+            margin-left: 10px;
+            width: 112px;
+        height: 32px;
+        }
+        .ultraedit{
+            font-size:30px ;
+            font-weight: bold;
+            
+            }
+  }
+  @media only screen and (max-width: 447px) {
+    .main-navbar{
+        display: flex;
+        gap: 1px;
+        margin-left: 30px;
+        margin-right: 20px;
+        }
+        .nav-imgcontanier {
+            display: flex;
+            margin-top: 10px;
+            width:53px;
+             height:53px;
+        }
+        .nav-imgcontanier h2{
+        font-size: 22px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-top: 5px;
+            margin-left: 10px;
+        
+        } 
+        .nav-imgcontanier p{
+            font-size: 8.4px;
+            font-family:Arial, Helvetica, sans-serif;
+            margin-left: 8px;
+            margin-top: -5px;
+        
+        } 
+        .mainheading{
+            margin-top: 80px;
+            margin-left: 70px;
+            font-size: 30px;
+            font-weight: normal;
+            margin-right: 20px;
+        }
+        .readourreview{
+            margin-top: -1px;
+            margin-left: 10px;
+            width: 112px;
+        height: 32px;
+        }
+        .ultraedit{
+            font-size:30px ;
+            font-weight: bold;
+            
+            }
+            .para-img-maincontainer{
+                margin-top: 90px;
+                margin-left: 73.5px;
+                margin-right: 70px;
+            }
+            .uc-para-img{
+                margin-top: 33px;
+                width:53px;
+                 height:53px;
+            } 
+            .img-para{
+                font-size: 20px;
+            }
+            .img-para span{
+                font-size: 14px;
+            }
+  }
+  @media only screen and (max-width: 403px) {
+    .main-navbar{
+        display: flex;
+        gap: 1px;
+        margin-left: 30px;
+        margin-right: 20px;
+        }
+        .nav-imgcontanier {
+            display: flex;
+            margin-top: 10px;
+            width:53px;
+             height:53px;
+        }
+        .nav-imgcontanier h2{
+        font-size: 22px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-top: 5px;
+            margin-left: 10px;
+        
+        } 
+        .nav-imgcontanier p{
+            font-size: 8.4px;
+            font-family:Arial, Helvetica, sans-serif;
+            margin-left: 8px;
+            margin-top: -5px;
+        
+        } 
+        .mainheading{
+            margin-top: 80px;
+            margin-left: 47px;
+            font-size: 30px;
+            font-weight: normal;
+            margin-right: 20px;
+        }
+        .readourreview{
+            margin-top: -1px;
+            margin-left: 10px;
+            width: 112px;
+        height: 32px;
+        }
+        .ultraedit{
+            font-size:30px ;
+            font-weight: bold;
+            
+            }
+            .para-img-maincontainer{
+                margin-top: 90px;
+                margin-left: 43.5px;
+                margin-right: 70px;
+            }
+  }
+  @media only screen and (max-width: 364px) {
+    .main-navbar{
+        display: flex;
+        gap: 1px;
+        margin-left: 30px;
+        margin-right: 20px;
+        }
+        .nav-imgcontanier {
+            display: flex;
+            margin-top: 10px;
+            width:53px;
+             height:53px;
+        }
+        .nav-imgcontanier h2{
+        font-size: 22px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-top: 5px;
+            margin-left: 10px;
+        
+        } 
+        .nav-imgcontanier p{
+            font-size: 8.4px;
+            font-family:Arial, Helvetica, sans-serif;
+            margin-left: 8px;
+            margin-top: -5px;
+        
+        } 
+        .mainheading{
+            margin-top: 80px;
+            margin-left: 47px;
+            font-size: 30px;
+            font-weight: normal;
+            margin-right: 40px;
+        }
+        .readourreview{
+            margin-top: -80px;
+            margin-left: 178px;
+            width: 112px;
+        height: 32px;
+        }
+        .ultraedit{
+            font-size:30px ;
+            font-weight: bold;
+            
+            }
+            .button-mac-linux{
+                width: 280px;
+            height: 58px;
+                background-color:#00b6d1 ;
+                border: #00b6d1 1px solid;
+                color: white;
+                font-weight: bold;
+                margin-bottom: 30px;
+                margin-left: 10px;
+            }
+            .button-mac-linux:hover{
+                background-color:#1eaac0 ;
+                border: #1eaac0 1px solid;  
+            }
+            .para-img-maincontainer{
+                margin-top: 20px;
+                margin-left: 43.5px;
+                margin-right: 20px;
+            }
+  }
+  @media only screen and (max-width: 354px) {
+    .main-navbar{
+        display: flex;
+        gap: 1px;
+        margin-left: 30px;
+        margin-right: 20px;
+        }
+        .nav-imgcontanier {
+            display: flex;
+            margin-top: 10px;
+            width:53px;
+             height:53px;
+        }
+        .nav-imgcontanier h2{
+        font-size: 22px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-top: 5px;
+            margin-left: 10px;
+        
+        } 
+        .nav-imgcontanier p{
+            font-size: 8.4px;
+            font-family:Arial, Helvetica, sans-serif;
+            margin-left: 8px;
+            margin-top: -5px;
+        
+        } 
+        .mainheading{
+            margin-top: 80px;
+            margin-left: 97px;
+            font-size: 34px;
+            font-weight: normal;
+            margin-right: 10px;
+        }
+        .readourreview{
+            margin-top: 10px;
+            margin-left: 18px;
+            width: 112px;
+        height: 32px;
+        }
+        .ultraedit{
+            font-size:36px ;
+            font-weight: bold;
+            margin-right: 50px;
+            }
+  }
+   @media only screen and (max-width: 324px) {
+    .main-navbar{
+        display: flex;
+        gap: 1px;
+        margin-left: 10px;
+        margin-right: -10px;
+        }
+        .nav-imgcontanier {
+            display: flex;
+            margin-top: 10px;
+            width: 48px;
+             height:48px;
+        }
+        .nav-imgcontanier h2{
+        font-size: 22px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-top: 5px;
+            margin-left: 10px;
+        
+        } 
+        .nav-imgcontanier p{
+            font-size: 8.4px;
+            font-family:Arial, Helvetica, sans-serif;
+            margin-left: 8px;
+            margin-top: -5px;
+        
+        } 
+        .mainheading{
+            margin-top: 80px;
+            margin-left: 77px;
+            font-size: 34px;
+            font-weight: normal;
+            margin-right: 10px;
+        }
+        .readourreview{
+            margin-top: 10px;
+            margin-left: 18px;
+            width: 112px;
+        height: 32px;
+        }
+        .ultraedit{
+            font-size:36px ;
+            font-weight: bold;
+            margin-right: 50px;
+            }
+            .para-img-maincontainer{
+                margin-top: 20px;
+                margin-left: 43.5px;
+                margin-right: 20px;
+            }
+            .uc-para-img{
+                margin-top: 33px;
+                width:46px;
+                 height:46px;
+            } 
+            .img-para{
+                font-size: 18px;
+            }
+            .img-para span{
+                font-size: 12px;
+            }
+  }
+  @media only screen and (max-width: 300px) {
+    .main-navbar{
+        display: flex;
+        gap: 1px;
+        margin-left: 10px;
+        margin-right: -10px;
+        }
+        .nav-imgcontanier {
+            display: flex;
+            margin-top: 10px;
+            width: 48px;
+             height:48px;
+        }
+        .nav-imgcontanier h2{
+        font-size: 22px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-top: 5px;
+            margin-left: 10px;
+        
+        } 
+        .nav-imgcontanier p{
+            font-size: 8.4px;
+            font-family:Arial, Helvetica, sans-serif;
+            margin-left: 8px;
+            margin-top: -5px;
+        
+        } 
+        .mainheading{
+            margin-top: 80px;
+            margin-left: 67px;
+            font-size: 34px;
+            font-weight: normal;
+            margin-right: 10px;
+        }
+        .readourreview{
+            margin-top: 10px;
+            margin-left: 18px;
+            width: 112px;
+        height: 32px;
+        }
+        .ultraedit{
+            font-size:36px ;
+            font-weight: bold;
+            margin-right: 50px;
+            }
+            .button-mac-linux{
+                width: 240px;
+            height: 70px;
+                background-color:#00b6d1 ;
+                border: #00b6d1 1px solid;
+                color: white;
+                font-weight: bold;
+            }
+            .para-img-maincontainer{
+                margin-top: 20px;
+                margin-left: 30.5px;
+                margin-right: 10px;
+            }
+            .uc-para-img{
+                margin-top: 33px;
+                width:46px;
+                 height:46px;
+            } 
+            .img-para{
+                font-size: 18px;
+            }
+            .img-para span{
+                font-size: 12px;
+            }
+  }
+  @media only screen and (max-width: 280px) {
+    .main-navbar{
+        display: flex;
+        gap: 1px;
+        margin-left: 10px;
+        margin-right: -10px;
+        }
+        .nav-imgcontanier {
+            display: flex;
+            margin-top: 10px;
+            width: 48px;
+             height:48px;
+        }
+        .nav-imgcontanier h2{
+        font-size: 22px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-top: 5px;
+            margin-left: 10px;
+        
+        } 
+        .nav-imgcontanier p{
+            font-size: 8.4px;
+            font-family:Arial, Helvetica, sans-serif;
+            margin-left: 8px;
+            margin-top: -5px;
+        
+        } 
+        .mainheading{
+            margin-top: 80px;
+            margin-left: 57px;
+            font-size: 34px;
+            font-weight: normal;
+            margin-right: 10px;
+        }
+        .readourreview{
+            margin-top: 10px;
+            margin-left: 18px;
+            width: 112px;
+        height: 32px;
+        }
+        .ultraedit{
+            font-size:36px ;
+            font-weight: bold;
+            margin-right: 50px;
+            }
+            .button-mac-linux{
+                width: 240px;
+            height: 70px;
+                background-color:#00b6d1 ;
+                border: #00b6d1 1px solid;
+                color: white;
+                font-weight: bold;
+            }
+            .para-img-maincontainer{
+                margin-top: 20px;
+                margin-left: 30px;
+                margin-right: 10px;
+            }
+            .uc-para-img{
+                margin-top: 33px;
+                width:46px;
+                 height:46px;
+            } 
+            .img-para{
+                font-size: 18px;
+            }
+            .img-para span{
+                font-size: 12px;
+            }
+  }
